@@ -1,0 +1,52 @@
+{
+    "products": [
+      {
+        "_id": "hoodie1",
+        "image": "/images/brownhands.webp",
+        "title": "Tan Hoodie with hands",
+        "description": "Hoodies for any Season!",
+        "availableSizes": ["X", "L", "XL", "XXL"],
+        "price": 25.99
+      },
+      {
+        "_id": "hoodie2",
+        "image": "/images/blackrose.webp",
+        "title": "Black Hoodie with white rose",
+        "description": "Hoodies for any Season!",
+        "availableSizes": ["X", "M", "L"],
+        "price": 18.99
+      },
+      {
+        "_id": "hoodie3",
+        "image": "/images/greytokyo.webp",
+        "title": "Grey Tokyo Hoodie",
+        "description": "Hoodies for any Season!",
+        "availableSizes": ["X", "M", "L"],
+        "price": 24.99
+      },
+      {
+        "_id": "hoodie4",
+        "image": "/images/blackmars.webp",
+        "title": "Black Mars Hoodie",
+        "description": "Hoodies for any Season!",
+        "availableSizes": ["XL"],
+        "price": 26.99
+      },
+      {
+        "_id": "hoodie5",
+        "image": "/images/greengrandcanyon.webp",
+        "title": "Green Grand Canyon Hoodie",
+        "description": "Hoodies for any Season!",
+        "availableSizes": ["X", "L", "XL"],
+        "price": 39.99
+      },
+      {
+        "_id": "hoodie6",
+        "image": "/images/greyhands.webp",
+        "title": "Grey Hoodie with holding hands",
+        "description": "Hoodies for any Season!",
+        "availableSizes": ["XL", "XXL"],
+        "price": 29.99
+      }
+    ]
+  }
