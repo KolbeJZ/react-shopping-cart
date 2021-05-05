@@ -12,13 +12,13 @@ body, input, select, button, textarea{
   font-size: 1.6rem;
 }
 h1.a{
-  color:#5dd0dd;
+  color:#0a4a52;
   display:inline-block;
   padding-left:20px;
   padding-top:5px;
 }
 h1.b{
-  color:#febd6b;
+  color:#ffffff;
   display:inline-block;
   padding-top:5px;
 }
@@ -40,7 +40,7 @@ a:hover {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #7da6cf;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ main{
 }
 footer{
   grid-area: footer;
-  background-color: #203040;
+  background-color: #7da6cf;
   color:#ffffff;
   display: flex;
   justify-content: center;
@@ -131,5 +131,47 @@ footer{
   border-bottom: 0.1rem #c0c0c0 solid;
 }
 .filter div{
+  flex: 1;
+}
+/* index.css */
+.cart{
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+.cart-header{
+  border-bottom: .1rem #c0c0c0 solid;
+}
+.cart-items{
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.cart-items img{
+  width: 5rem;
+}
+.cart-items li{
+  display:flex;
+}
+.cart-items li div{
+  padding: .5rem;
+}
+.cart-items li div:last-child{
+  flex: 1;
+}
+.right{
+  text-align:right;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total > div{
+  font-size: 2rem;
+}
+.total > div,
+.total > button{
   flex: 1;
 }
