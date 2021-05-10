@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
-import Fade from "react-reveal/Fade";
 import Modal from "react-modal";
-import Zoom from "react-reveal/Zoom";
 import { connect } from "react-redux";
 import { fetchProducts } from "../actions/productActions";
 import { addToCart } from "../actions/cartActions";
@@ -27,7 +25,6 @@ class Products extends Component {
     const { product } = this.state;
     return (
       <div>
-        <Fade bottom cascade>
           {!this.props.products ? (
             <div>Loading...</div>
           ) : (
@@ -56,10 +53,8 @@ class Products extends Component {
               ))}
             </ul>
           )}
-        </Fade>
         {product && (
           <Modal isOpen={true} onRequestClose={this.closeModal}>
-            <Zoom>
               <button className="close-modal" onClick={this.closeModal}>
                 x
               </button>
@@ -93,7 +88,6 @@ class Products extends Component {
                   </div>
                 </div>
               </div>
-            </Zoom>
           </Modal>
         )}
       </div>
